@@ -12,8 +12,6 @@ export default function Navbar() {
           <a href="#">Find Roomie</a>
         </li>
       </ul>
-
-      <button className="lg:hidden menu-button">menu</button>
     </div>
   );
 }
