@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <div className="fixed w-full h-8 bg-purple-800 text-gray-300 items-center flex flex-row justify-between">
       <div className="brand-logo text-sm font-bold">Roomie</div>
@@ -14,4 +14,6 @@ export default function Navbar() {
       </ul>
     </div>
   );
-}
+};
+
+export default Navbar;
