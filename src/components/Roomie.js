@@ -3,7 +3,7 @@ import SmallButton from "./Buttons/SmallButton";
 
 const Roomie = () => {
   return (
-    <div>
+    <div className="border-4 border-black container sm">
       <div>picture</div>
       <div>
         <div>
@@ -14,7 +14,6 @@ const Roomie = () => {
           <p>Area:</p>
         </div>
       </div>
-      <p>somthing</p>
     </div>
   );
 };
