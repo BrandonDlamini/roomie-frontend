@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-const SmallButton = ()=>{
-    return(
-        <div>
-            <button> </button>
-        </div>
-    )
-}
+const SmallButton = () => {
+  return (
+    <div>
+      <button> </button>
+    </div>
+  );
+};
 
-default export SmallButton;
+export default SmallButton;
