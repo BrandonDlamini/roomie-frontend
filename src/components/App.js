@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./../logo.svg";
 import "./../styles/App.css";
 import Navbar from "./Navbar";
+import SmallButton from "./Buttons/SmallButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           The platform for finding your next roomate
         </p>
       </div>
+      <SmallButton />
     </div>
   );
 }
