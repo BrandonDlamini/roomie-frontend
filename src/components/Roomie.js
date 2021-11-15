@@ -1,4 +1,5 @@
 import React from "react";
+import SmallButton from "./Buttons/SmallButton";
 
 const Roomie = () => {
   return (
@@ -6,7 +7,7 @@ const Roomie = () => {
       <div>picture</div>
       <div>
         <div>
-          <button></button>
+          <SmallButton />
         </div>
         <div>
           <p>Name:</p>
