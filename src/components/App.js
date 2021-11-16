@@ -17,7 +17,7 @@ function App() {
           The platform for finding your next roomate
         </p>
       </div>
-      <div className="grid-cols-3 gap-4 flex content-start">
+      <div className="mx-72 mt-8 border-4 border-red-600 flex flex-wrap justify-center gap-4">
         <div>
           <Roomie />
         </div>

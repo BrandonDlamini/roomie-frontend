@@ -4,7 +4,11 @@ import SmallButton from "./Buttons/SmallButton";
 const Roomie = () => {
   return (
     <div className="border-4 border-black  max-w-xs">
-      <div>picture</div>
+      <img
+        src="https://i.ibb.co/5RvVnkL/3.jpg"
+        alt="Roomate"
+        className="h-52 w-full object-cover"
+      />
       <div>
         <div>
           <SmallButton />
