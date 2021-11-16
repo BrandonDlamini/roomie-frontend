@@ -3,7 +3,7 @@ import SmallButton from "./Buttons/SmallButton";
 
 const Roomie = () => {
   return (
-    <div className="border-4 border-black container sm">
+    <div className="border-4 border-black  max-w-xs">
       <div>picture</div>
       <div>
         <div>
