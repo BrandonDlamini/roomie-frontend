@@ -7,15 +7,15 @@ const Roomie = () => {
       <img
         src="https://i.ibb.co/5RvVnkL/3.jpg"
         alt="Roomate"
-        className="h-52 w-full object-cover"
+        className="h-64 w-full object-cover"
       />
-      <div>
-        <div>
-          <SmallButton />
-        </div>
-        <div>
+      <div className="py-4 flex flex-row border-4 gap-36 border-yellow-500">
+        <div className="font-robot font-medium ml-2">
           <p>Name:</p>
           <p>Area:</p>
+        </div>
+        <div className="mr-2 justify-items-end">
+          <SmallButton />
         </div>
       </div>
     </div>
