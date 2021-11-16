@@ -17,7 +17,17 @@ function App() {
           The platform for finding your next roomate
         </p>
       </div>
-      <Roomie />
+      <div className="grid-cols-3">
+        <div>
+          <Roomie />
+        </div>
+        <div>
+          <Roomie />
+        </div>
+        <div>
+          <Roomie />
+        </div>
+      </div>
     </div>
   );
 }
