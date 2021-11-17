@@ -11,7 +11,7 @@ import {
 } from "@apollo/client";
 
 const httpLink = createHttpLink({
-  uri: process.env.REACT_APP_API_ENDPOINT,
+  uri: "https://3jjg9whefa.execute-api.us-east-1.amazonaws.com/dev/graphql",
 });
 
 const client = new ApolloClient({

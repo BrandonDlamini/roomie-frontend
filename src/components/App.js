@@ -14,7 +14,12 @@ function App() {
         <p>loading</p>
       </div>
     );
-  if (error) return <p className="text-red-700">{error}</p>;
+  if (error)
+    return (
+      <div>
+        <p className="text-red-700">{error}</p>
+      </div>
+    );
   return (
     <div class="bg-gray-50">
       <Navbar />
@@ -29,7 +34,13 @@ function App() {
       </div>
       <div className="mx-3.5 mt-8 p-12 gap-8 border-4 border-red-600 flex flex-wrap justify-center ">
         <div>
-          {data.view}
+          {data.getAllRoomies.map((roomie) => (
+            <Roomie
+              key={roomie.roomieId}
+              name={roomie.name}
+              area={roomie.area}
+            />
+          ))}
           <Roomie />
         </div>
       </div>
