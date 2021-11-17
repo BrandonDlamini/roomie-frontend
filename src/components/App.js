@@ -32,17 +32,12 @@ function App() {
           The platform for finding your next roomate
         </p>
       </div>
+
       <div className="mx-3.5 mt-8 p-12 gap-8 border-4 border-red-600 flex flex-wrap justify-center ">
-        <div>
-          {data.getAllRoomies.map((roomie) => (
-            <Roomie
-              key={roomie.roomieId}
-              name={roomie.name}
-              area={roomie.area}
-            />
-          ))}
-          <Roomie />
-        </div>
+        {data.getAllRoomies.map((roomie) => (
+          <Roomie key={roomie.roomieId} name={roomie.name} area={roomie.area} />
+        ))}
+        <Roomie />
       </div>
     </div>
   );
