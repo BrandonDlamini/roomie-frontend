@@ -21,12 +21,6 @@ function App() {
         <div>
           <Roomie />
         </div>
-        <div>
-          <Roomie />
-        </div>
-        <div>
-          <Roomie />
-        </div>
       </div>
     </div>
   );
