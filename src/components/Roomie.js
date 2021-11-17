@@ -2,7 +2,7 @@ import React from "react";
 import SmallButton from "./Buttons/SmallButton";
 import PropTypes from "prop-types";
 
-const Roomie = (name, area) => {
+const Roomie = ({ name, area }) => {
   return (
     <div className="shadow-md max-w-sm">
       <img
