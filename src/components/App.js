@@ -1,5 +1,5 @@
 import "./../styles/App.css";
-import Index from "../pages";
+import Index from "../pages/Index";
 import { Router } from "@reach/router";
 
 function App() {
