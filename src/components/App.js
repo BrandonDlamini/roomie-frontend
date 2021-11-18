@@ -1,10 +1,13 @@
 import "./../styles/App.css";
 import Index from "../pages";
+import { Router } from "@reach/router";
 
 function App() {
   return (
     <div>
-      <Index />
+      <Router>
+        <Index path="/" />
+      </Router>
     </div>
   );
 }
