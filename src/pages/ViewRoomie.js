@@ -14,7 +14,7 @@ const ViewRoomie = () => {
           className="h-1/5 w-full object-cover"
         />
         <div className="bg-rmPurple text-white w-full flex flex flex-wrap justify-center p-1 text-xl font-bold font-mont">
-          <p>HATFIELD</p>
+          <p className="text-shadow-sm">HATFIELD</p>
         </div>
         <div className="flex flex-wrap w-full justify-items-start font-mont px-4">
           <h1 className="text-base  font-semibold pt-4">Description</h1>
