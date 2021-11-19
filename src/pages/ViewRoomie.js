@@ -7,7 +7,7 @@ const ViewRoomie = () => {
     <div className="bg-gray-50">
       <Navbar />
       <Welcome />
-      <div className=" mt-8  border-2 border-black flex flex-wrap w-1/2 justify-center m-auto ">
+      <div className=" mt-8 mb-7 flex flex-wrap w-1/2 justify-center m-auto shadow-lg">
         <img
           src="https://i.ibb.co/5RvVnkL/3.jpg"
           alt="Roomate"
@@ -25,11 +25,11 @@ const ViewRoomie = () => {
           </p>
         </div>
         <div className="flex flex-wrap w-full justify-around px-4">
-          <div className=" w-1/2 border-2 border-red-600 pr-1">
+          <div className=" w-1/2 border-2 border-red-600 pr-1 mb-5">
             <p className=" text-base font-bold">Name:</p>
             <p className=" text-base font-bold">Email:</p>
           </div>
-          <div className=" w-1/2 border-2 border-red-600">
+          <div className=" w-1/2 border-2 border-red-600 mb-5">
             <p className=" text-base font-bold">Phone:</p>
             <p className=" text-base font-bold">Area:</p>
           </div>
