@@ -25,11 +25,11 @@ const ViewRoomie = () => {
           </p>
         </div>
         <div className="flex flex-wrap w-full justify-around px-4">
-          <div className=" w-1/2 border-2 border-red-600 pr-1 mb-5">
+          <div className=" w-1/2 pr-1 mb-5">
             <p className=" text-base font-bold">Name:</p>
             <p className=" text-base font-bold">Email:</p>
           </div>
-          <div className=" w-1/2 border-2 border-red-600 mb-5">
+          <div className=" w-1/2 mb-5">
             <p className=" text-base font-bold">Phone:</p>
             <p className=" text-base font-bold">Area:</p>
           </div>
