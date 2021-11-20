@@ -15,8 +15,8 @@ export const GET_ALL_ROOMIES = gql`
 `;
 
 export const GET_ROOMIE = gql`
-  query getRoomie($roomieId: String!) {
-    getAllRoomies(roomieId: $roomieId) {
+  query getRoomie($roomieId: String) {
+    getRoomie(roomieId: $roomieId) {
       roomieId
       name
       email

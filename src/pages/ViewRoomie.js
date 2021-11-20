@@ -4,7 +4,7 @@ import Welcome from "../components/typography/Welcome";
 import { GET_ROOMIE } from "../graphql/Queries";
 import { useQuery } from "@apollo/react-hooks";
 
-const ViewRoomie = ({ props }) => {
+const ViewRoomie = (props) => {
   const { loading, data, error } = useQuery(GET_ROOMIE, {
     variables: { roomieId: props.id },
   });
