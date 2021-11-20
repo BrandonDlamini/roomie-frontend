@@ -6,7 +6,7 @@ const Routes = ({ props }) => {
   return (
     <Router>
       <Index path="/" props={props} />
-      <ViewRoomie path="/booking/:id" props={props} />
+      <ViewRoomie path="/viewRoomie/:id" props={props} />
     </Router>
   );
 };

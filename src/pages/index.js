@@ -26,7 +26,12 @@ const Index = () => {
 
       <div className="mx-3.5 mt-8 p-12 gap-8 border-4 border-red-600 flex flex-wrap justify-center ">
         {data.getAllRoomies.map((roomie) => (
-          <Roomie key={roomie.roomieId} name={roomie.name} area={roomie.area} />
+          <Roomie
+            key={roomie.roomieId}
+            name={roomie.name}
+            area={roomie.area}
+            id={roomie.roomieId}
+          />
         ))}
         <Roomie />
       </div>
