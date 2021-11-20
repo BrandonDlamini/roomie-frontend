@@ -13,3 +13,17 @@ export const GET_ALL_ROOMIES = gql`
     }
   }
 `;
+
+export const GET_ROOMIE = gql`
+  query getRoomie($roomieId: String!) {
+    getAllRoomies(roomieId: $roomieId) {
+      roomieId
+      name
+      email
+      phoneNumber
+      description
+      area
+      imageUrl
+    }
+  }
+`;
