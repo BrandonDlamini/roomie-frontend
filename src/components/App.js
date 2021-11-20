@@ -1,17 +1,12 @@
 import "./../styles/App.css";
-import Index from "../pages/Index";
-import { Router } from "@reach/router";
-import ViewRoomie from "../pages/ViewRoomie";
+import Routes from "../routes";
 
 function App() {
   return (
     <div>
-      <ViewRoomie />
+      <Routes />
     </div>
   );
 }
 
 export default App;
-//<Router>
-// <Index path="/" />
-//</Router>
