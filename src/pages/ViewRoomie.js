@@ -37,6 +37,7 @@ const ViewRoomie = (props) => {
         </div>
         <div className="flex flex-wrap w-full justify-items-start font-mont px-4">
           <h1 className="text-base  font-semibold pt-4">Description:</h1>
+          <br></br>
           <p className="text-base font-light py-2">{roomie.description}</p>
         </div>
         <div className="flex flex-wrap w-full justify-around px-4">
