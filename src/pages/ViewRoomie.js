@@ -33,25 +33,22 @@ const ViewRoomie = (props) => {
           className="h-1/5 w-full object-cover"
         />
         <div className="bg-rmPurple text-white w-full flex flex flex-wrap justify-center p-1 text-xl font-bold font-mont">
-          <p className="text-shadow-sm">{roomie.area}HATFIELD</p>
+          <p className="text-shadow-sm uppercase">{roomie.area}</p>
         </div>
         <div className="flex flex-wrap w-full justify-items-start font-mont px-4">
-          <h1 className="text-base  font-semibold pt-4">Description</h1>
-          <p className="text-base font-light py-2">
-            {roomie.description}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            eros felis. Duis interdum elit non laoreet laoreet. Vivamus non
-            tempus lectus. In sit amet rhoncus sem.
-          </p>
+          <h1 className="text-base  font-semibold pt-4">Description:</h1>
+          <p className="text-base font-light py-2">{roomie.description}</p>
         </div>
         <div className="flex flex-wrap w-full justify-around px-4">
           <div className=" w-1/2 pr-1 mb-5">
-            <p className=" text-base font-bold">{roomie.name}Name:</p>
-            <p className=" text-base font-bold">{roomie.email}Email:</p>
+            <p className=" text-base font-bold">Name: {roomie.name}</p>
+            <p className=" text-base font-bold">Email: {roomie.email}</p>
           </div>
           <div className=" w-1/2 mb-5">
-            <p className=" text-base font-bold">{roomie.phoneNumber}:</p>
-            <p className=" text-base font-bold">{roomie.area}Area:</p>
+            <p className=" text-base font-bold">
+              Contact: {roomie.phoneNumber}:
+            </p>
+            <p className=" text-base font-bold">Area: {roomie.area}</p>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="menu-list-item px-2">
-          <a href="#">Find Roomie</a>
+          <a href="/">Find Roomie</a>
         </li>
       </ul>
     </div>

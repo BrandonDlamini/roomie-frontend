@@ -7,12 +7,14 @@ import { useQuery } from "@apollo/react-hooks";
 
 const Index = () => {
   const { loading, data, error } = useQuery(GET_ALL_ROOMIES);
+
   if (loading)
     return (
       <div>
         <p>loading</p>
       </div>
     );
+
   if (error)
     return (
       <div>
